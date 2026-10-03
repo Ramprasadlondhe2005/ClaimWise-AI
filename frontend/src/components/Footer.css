@@ -1,0 +1,30 @@
+.app-footer {
+  background-color: var(--hero-dark-bg);
+  color: #94a3b8;
+  border-top: 1px solid #293754;
+  padding: 18px 0;
+  margin-top: auto;
+  font-size: 12.5px;
+}
+
+.footer-inner {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.bullet {
+  color: #475569;
+}

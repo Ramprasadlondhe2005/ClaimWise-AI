@@ -1,0 +1,32 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build outputs
+target/
+dist/
+build/
+*.class
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+logs/
+
+# Java / Maven
+*.jar
+*.war
+*.ear
+.mvn/
+mvnw
+mvnw.cmd
